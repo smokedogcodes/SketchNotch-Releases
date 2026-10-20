@@ -10,33 +10,32 @@ Welcome to the official download and release repository for **SketchNotch**—th
 
 ## 📥 Downloads (Latest Release v1.0.0)
 
-| Package | Format | Architecture | Description | Download |
+| Package | Format | Size | Description | Download |
 | :--- | :---: | :---: | :--- | :---: |
-| **SketchNotch Installer** | `.msi` / `.exe` | x64 / ARM64 | Full installer with auto-updates & start menu shortcuts | [Download Installer](https://github.com/smokedogcodes/SketchNotch-Releases/releases/download/v1.0.0/SketchNotch-Setup-1.0.0.exe) |
-| **SketchNotch Portable** | `.zip` | x64 | Zero-installation standalone portable archive | [Download Portable .zip](https://github.com/smokedogcodes/SketchNotch-Releases/releases/download/v1.0.0/SketchNotch-v1.0.0-Windows-x64.zip) |
+| **SketchNotch Standalone** *(Recommended)* | `.exe` | **5.7 MB** | **Single standalone `.exe` file**. Zero installation, no extra DLLs needed, double-click & run anywhere! | [**Download SketchNotch.exe**](https://github.com/smokedogcodes/SketchNotch-Releases/releases/download/v1.0.0/SketchNotch.exe) |
+| **SketchNotch Portable Archive** | `.zip` | **5.3 MB** | Complete folder archive with core executable, `WebView2Loader.dll`, and quick-start docs | [Download Portable .zip](https://github.com/smokedogcodes/SketchNotch-Releases/releases/download/v1.0.0/SketchNotch-v1.0.0-Windows-x64.zip) |
 
 ---
 
 ## ⚡ System Requirements
 - **Operating System**: Windows 11 (22H2, 23H2, 24H2) or Windows 10 (21H2, 22H2) 64-bit.
 - **Runtime**: Microsoft Edge WebView2 Evergreen Runtime (pre-installed on Windows 11 and modern Windows 10).
-- **Memory**: ~120 MB RAM footprint.
+- **Memory**: ~50 MB RAM footprint.
 - **Permissions**: Standard user permissions (no administrator elevation required).
 
 ---
 
 ## 🚀 Installation & Quick Start Guide
 
-### Option 1: Standard Windows Installer (Recommended)
-1. Download `SketchNotch-Setup-1.0.0.exe` above.
-2. Double-click the installer and follow the prompt.
-3. SketchNotch will launch automatically and anchor itself to the top-center camera notch of your display.
+### Option 1: Standalone Single Executable (Recommended)
+1. Download **`SketchNotch.exe`** (5.7 MB).
+2. Double-click to launch directly from Downloads, Desktop, or a USB drive.
+3. No installation, unzipping, or external DLL files required!
 
-### Option 2: Portable Zero-Install Archive
+### Option 2: Portable Folder Archive
 1. Download `SketchNotch-v1.0.0-Windows-x64.zip`.
-2. Extract the archive into any folder (e.g. `C:\Tools\SketchNotch` or `Desktop\SketchNotch`).
-3. Double-click `sketchnotch.exe`.
-4. **Note**: Make sure `WebView2Loader.dll` remains in the same folder as `sketchnotch.exe` (both are included together in the zip).
+2. Extract the archive into any folder (e.g. `C:\Tools\SketchNotch`).
+3. Double-click `sketchnotch.exe`. Both `sketchnotch.exe` and `WebView2Loader.dll` are included together.
 
 ---
 
@@ -97,8 +96,8 @@ When you first open SketchNotch, it runs in **Trial / Activation Mode**.
 ---
 
 ## 🔒 Verification & Checksums
-- `SketchNotch-v1.0.0-Windows-x64.zip`: `SHA-256: 3085CDC1B1EF7B0596173935037980B3B81B4590CA4ABB687EC4EC83769B45C7`
-- Bundle contents: `sketchnotch.exe` (Optimized Release 17.6MB) + `WebView2Loader.dll` (160KB) + `README.txt`
+- `SketchNotch.exe`: `SHA-256: 0CF5A938F9DA8C28B3725DFC89DA79FFAB50412F002514CB770EAF2257ED49A0` (5.7 MB)
+- `SketchNotch-v1.0.0-Windows-x64.zip`: `SHA-256: 3085CDC1B1EF7B0596173935037980B3B81B4590CA4ABB687EC4EC83769B45C7` (5.3 MB)
 
 ---
 
