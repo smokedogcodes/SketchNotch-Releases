@@ -34,8 +34,9 @@ Welcome to the official download and release repository for **SketchNotch**—th
 
 ### Option 2: Portable Zero-Install Archive
 1. Download `SketchNotch-v1.0.0-Windows-x64.zip`.
-2. Extract the folder anywhere (e.g. `C:\Tools\SketchNotch` or your Desktop).
-3. Run `sketchnotch.exe`.
+2. Extract the archive into any folder (e.g. `C:\Tools\SketchNotch` or `Desktop\SketchNotch`).
+3. Double-click `sketchnotch.exe`.
+4. **Note**: Make sure `WebView2Loader.dll` remains in the same folder as `sketchnotch.exe` (both are included together in the zip).
 
 ---
 
@@ -96,7 +97,8 @@ When you first open SketchNotch, it runs in **Trial / Activation Mode**.
 ---
 
 ## 🔒 Verification & Checksums
-- `SketchNotch-v1.0.0-Windows-x64.zip`: `SHA-256: CF613D86264C73B0BB52D99898E1DDCE17DD1BFE4AFD141192603EDE898D6FBE`
+- `SketchNotch-v1.0.0-Windows-x64.zip`: `SHA-256: 3085CDC1B1EF7B0596173935037980B3B81B4590CA4ABB687EC4EC83769B45C7`
+- Bundle contents: `sketchnotch.exe` (Optimized Release 17.6MB) + `WebView2Loader.dll` (160KB) + `README.txt`
 
 ---
 
