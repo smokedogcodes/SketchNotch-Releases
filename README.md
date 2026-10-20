@@ -95,9 +95,19 @@ When you first open SketchNotch, it runs in **Trial / Activation Mode**.
 
 ---
 
+## 🔄 Automatic Update Push & "What's New" Modal
+
+SketchNotch includes a built-in auto-update notification engine and release changelog viewer:
+1. **GitHub Releases Tracking**: On startup (and periodically in background), SketchNotch queries the latest release from `smokedogcodes/SketchNotch-Releases/releases/latest`.
+2. **Instant Dynamic Island Indicator**: When a new version is detected, a hand-drawn chartreuse update pill (`★ Update v1.0.1 Ready`) animates directly inside the Dynamic Island notch.
+3. **First-Run "What's New" Modal**: Whenever a new update is launched for the first time, SketchNotch displays an authentic paper-styled "What's New" modal outlining new modules, bug fixes, and feature improvements.
+4. **Settings Studio Updates Tab**: A dedicated tab in Settings Studio (`Updates & What's New`) allows users to check for updates manually, view the latest release notes, and download the new `.exe` with a single click.
+
+---
+
 ## 🔒 Verification & Checksums
-- `SketchNotch.exe`: `SHA-256: 0CF5A938F9DA8C28B3725DFC89DA79FFAB50412F002514CB770EAF2257ED49A0` (5.7 MB)
-- `SketchNotch-v1.0.0-Windows-x64.zip`: `SHA-256: 3085CDC1B1EF7B0596173935037980B3B81B4590CA4ABB687EC4EC83769B45C7` (5.3 MB)
+- `SketchNotch.exe`: `SHA-256: 69BCE5DD02607700840AAA9825849EE7B419DC97792FEFB8E6D796E97A8DC612` (5.7 MB)
+- `SketchNotch-v1.0.0-Windows-x64.zip`: `SHA-256: 5CEA0212E8112349950B25A497E1476EEE6F74BE56D91AA765D7E1F88F6FE3AE` (5.3 MB)
 
 ---
 
